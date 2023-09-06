@@ -16,7 +16,7 @@ module.exports = {
 			}
 		]
 	},
-	devtool: isProduction ? "nosources-source-map" : "inline-source-map", // 报错的时候在控制台输出哪一行报错 https://www.rspack.dev/zh/config/devtool.html
+	devtool: isProduction ? "nosources-source-map" : "source-map",
     devServer: {
         //static: path.resolve(__dirname, "../dist"),
         //proxy: proxy,
